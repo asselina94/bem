@@ -1,0 +1,40 @@
+.card {
+  position: relative;
+  border: 2px solid black;
+  padding: 80px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background: url('../img/ger.jpg') no-repeat center center/cover;
+}
+.card__item {
+  position: absolute;
+  left: 10px;
+  border: 2px solid black;
+  top: 10px;
+  width: 200px;
+  height: 135px;
+  background: #f4f4f4;
+  background-size: auto;
+ 
+
+}
+.card__text {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 30px;
+  color: purple;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.building--img {
+  background: url('../img/ber.jpg') no-repeat center center/cover;
+
+}
+.card__item--dark {
+  border-color: black;
+  background-color: #272221;
+}
+.card__text--white {
+  color: white;
+
+}
